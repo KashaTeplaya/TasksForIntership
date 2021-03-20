@@ -1,0 +1,565 @@
+
+body,html{
+    height:100%;
+    margin: 0;
+}
+.social-quick{
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    justify-content: space-around;
+    width: 50px;
+    height: 194px;
+    left: 0px;
+    top: 35%;
+    border-top-right-radius: 2px;
+    border: 1px solid #45124c;
+    border-color: #45124c;
+    background-color: #45124c;
+    border-bottom-right-radius: 2px;
+
+}
+.social-quick button{
+    background-color: #45124c;
+    margin: 0;
+    border-style: none;
+    
+}
+.main{
+ overflow: hidden;   
+}
+.top-container{
+   
+    display: flex;
+    flex-direction: column;
+    background-image: url(../images/iStock-169971981.png); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    
+}
+.logo {
+    margin: 0  auto;
+    margin-top: 4.5%;
+    width: 21.3vw;
+    text-align: center;
+}
+.logo img{
+    max-width: 100%;
+}
+
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: right;
+    font-family: 'Dosis', sans-serif;
+    font-size: 18pt;
+    color: #2f1946;
+    text-transform: uppercase;
+}
+.menu-icon{
+   margin-left: 10px;
+}
+.menu-icon div{
+    width: 28px;
+    margin: 5px 0;
+    width: 28px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: #e22028;
+}
+.toptext{
+    padding: 0;
+    margin-top: 90px;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    font-size: 5vw;
+    color: #2f1946;
+    text-transform: uppercase;
+}
+.button{
+    display: inline-block;
+    margin: auto;
+    border:1px solid black;
+    border-radius: 50px;
+    border-style: solid;
+    padding: 24px 12px;
+}
+.bodybtn{
+    margin-top: 75px;
+    text-align: center;
+}
+
+.button a{
+     color:white;
+    padding: 18px 26px 18px 25px ;
+    text-decoration-line: none;
+    background-color: #81398b;
+    border-radius: 50px; 
+}
+.button-text{
+    font-size: 18pt;
+    font-family: 'Dosis', sans-serif;
+}
+.buttonarrow{
+    margin: 0 12px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    width: 785px;
+    height: 330px;
+    margin: 0 auto;
+    margin-top: 76px;
+    text-align: center;
+    margin-bottom: -112px;
+}
+.card-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 62px;
+    text-align: center;
+    
+    background-color: #fe4a5d;
+    width: 236px;
+}
+.card-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 62px;
+    background-color: #e22028;
+    width: 236px;
+}
+.card-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 62px;
+    background-color: #ff6c00;
+    width: 236px;
+}
+.card-1-bottom{
+    font-family: 'Dosis', sans-serif;
+    font-size: 32px;
+    color: #ffffff;
+    line-height: 110px;
+    background-color: #e44254;
+    height: 112px;
+}
+.card-2-bottom{
+    font-family: 'Dosis', sans-serif;
+    font-size: 32px;
+    color: #ffffff;
+    line-height: 110px;
+    background-color: #cb1d24;
+    height: 112px;
+}
+.card-3-bottom{
+    font-family: 'Dosis', sans-serif;
+    font-size: 32px;
+    color: #ffffff;
+    line-height: 110px;
+    background-color: #e56100;
+    height: 112px;
+}
+.center-container{
+   
+}
+h2{
+    margin-top: 243px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Dosis', sans-serif;
+    font-size: 52px;
+    color: #2f1946;
+}
+h2 img{
+    margin-right: 10px;
+}
+.quote{
+    margin: 0 auto;
+    max-width: 784px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 30px;
+    color: #2f1946;
+    text-align: center;
+}
+.quote span{
+    display: block;
+    font-family: 'Dosis', sans-serif;
+    font-size: 30px;
+    color: #fe4a5d;
+    text-align: right;
+}
+.registration-block{
+  
+    max-width: 1801px;
+    margin: 0 auto;
+    margin-top: 51px;
+}
+.registration-row{
+    margin: 0 auto;
+    display: flex;
+    height: 552px;
+  
+    background-image: url(../images/Centre.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.registration-column{
+
+    margin: 0 auto;
+    
+
+    flex-basis: content;
+    width: 465px;
+    border: 10px solid;
+    border-image:linear-gradient(90deg,#e22128,#f9b316);
+    border-image-slice: 1;
+}
+.line-or{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Dosis', sans-serif;
+    font-size: 14px;
+    margin-top: 13px;
+}
+.line-or div{
+    width: 130px;
+    background-color: #dcdcdc;
+    border-width: 2px;
+    height: 2px;
+}
+.line-or span{
+    margin:0px 10px;
+    color: #9a9a9a;
+}
+.reg-button{
+    display: block;
+    margin: 0 auto;
+    width: 302px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 16px;
+    height: 40px;
+    text-transform: uppercase;
+    background-color:#2f53a3;
+    color:#ffffff;
+    border-style: none;
+    border-radius: 5px;
+}
+.reg-button img{
+    margin-right: 10px;
+}
+h3{
+    margin-top: 76px;
+    text-transform: uppercase;
+    font-family: 'Dosis', sans-serif;
+    font-size: 38px;
+    color: #2f1946;
+    text-align: center;
+}
+.input-areas{
+    display: flex;
+    flex-direction: column;
+    max-width: 298px;
+    height: 200px;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.input-area{
+    border-radius: 5px;
+    border:solid #dcdcdc;
+    padding-left: 10px;
+    height: 34px;
+}
+.input-area::placeholder{
+    color: #642f6b;
+    font-family: 'Dosis', sans-serif;
+    font-size: 16px;
+}
+.enter-button{
+    background-color: #81398b;
+    margin-top: 20px;
+}
+.circles-container{
+    /* z-index: 1;
+    margin: 0  auto;
+    height: 728px;
+    max-width: 1800px;
+    width: 1800px;
+    background-image:url(../images/Centre.png);
+    background-size: cover;
+    position: relative;
+    margin-top: 158px; */
+    margin: 158px auto;
+    max-width: 1800px;
+    height: 728px;
+    position: relative;
+    background-image: url(../images/bg\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.circle{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    background-color: #ff6c00;
+    color:#ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    transform: rotate(-10deg);
+}
+
+.wrapper-circle{
+    position: absolute;
+    display: block;
+    top: 50px;
+    left: 200px;
+}
+.border-circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #aa7eb1;
+    border-radius: 50%;
+    height: 268px;
+    width: 268px;
+    
+}
+.wrapper-numbertext{
+    position: absolute;
+    top: 34px;
+    left: 1196px;
+}
+.numbertext-circle{
+    background-color: #fe4a5d;
+    display: flex;
+    flex-direction: column;
+    width: 155px;
+    height: 155px;
+    font-size: 20px;
+    transform: rotate(5deg);
+}
+.numbertext-border{
+    width: 203px;
+    height: 203px;
+}
+.circle span{
+    display: block;
+    font-size: 40px;
+}
+#genders-circle{
+    background-color: #f9b416;
+}
+#wrapper-gender-circle{
+    position: absolute;
+    left: 432px;
+    top: 480px;
+}
+
+.wrapper-chat-circle{
+    position: absolute;
+    left:1462px;
+    top:334px;
+}
+#chat-circle{
+    font-size: 24px;
+    transform: rotate(5deg);
+    width: 190px;
+    height: 190px;
+}
+#border-chat-circle{
+    width: 250px;
+    height: 250px;
+}
+.wrapper-like-circle{
+    position: absolute;
+    left: 120px;
+    top: 384px;
+}
+.border-like{
+    width:138px; 
+    height:138px; 
+}
+
+.like-circle{
+    background-color: #fe4a5d;
+    width: 102px;
+    height: 102px;
+}
+
+.wrapper-gift-circle{
+    position: absolute;
+    left: 1194px;
+    top: 446px;
+}
+#gift-circle{
+    transform: rotate(-2deg);
+}
+.wrapper-sms{
+    position: absolute;
+    top: 70px;
+    left:1688px
+}
+.border-sms{
+    width: 176px;
+    height: 176px;
+}
+.sms-circle{
+    width: 136px;
+    height: 136px;
+    background-color: #f9b416;
+    transform: rotate(5deg);
+}
+#border-flower{
+    width: 206px;
+    height: 206px;
+}
+#flower-circle{
+   
+    width: 152px;
+    height: 152px;
+}
+#wrapper-flower{
+    position: absolute;
+    top: 152px;
+    left: -86px;
+}
+#border-join{
+    margin: 0 auto;
+    
+    width: 462px;
+    height: 462px;
+}
+#join-circle{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 374px;
+    height: 374px;
+    transform: unset;
+    color: #67326e;
+    font-family: 'Dosis', sans-serif;
+    font-size: 46px;
+    text-transform: lowercase;
+}
+#wrapper-join{
+    /* position: absolute; */
+    margin: auto;
+    position: absolute;
+    top: 136px; left: 0; bottom: 0; right: 0;
+    /* left: 676px;
+    top: 136px; */
+    
+}
+#join-circle span{
+    font-size: 60px;
+    text-transform: uppercase;
+}
+.join-button{
+    margin-top: 28px;
+    width: 140px; 
+    height: 38px;
+    background: linear-gradient(90deg,#e22128,#f9b316);
+    border-radius: 5px;
+    color: #ffffff;
+    text-transform: uppercase;
+    border: none;
+    font-family: 'Dosis', sans-serif;
+    font-size: 16px;
+}
+.sign-up{
+    margin-top: 34px;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+}
+.sign-up span{
+    margin-right: 15px;
+   
+    font-size: 16px;
+    color: #00cfae;
+}
+#input-subscribe{
+    border-width: 1px;
+    height: 36px;
+}
+#input-subscribe::placeholder{
+    color:#cacaca;
+    font-family:  'Lato', sans-serif;
+}
+.sign-up button{
+    width: 134px;
+    height: 40px;
+    color: #ffffff;
+    background-color:#00cfae;
+    border-style: unset;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-left: -10px;;
+}
+.about{
+    margin-top: 36px;
+    background-color: #fafafa;
+    
+}
+
+.about-container{
+    max-width: 830px;
+    padding-top: 25px ;
+    padding-bottom: 25px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.about-container a{
+    text-decoration: unset;
+    color:#2f1946;
+    font-size: 16px;
+    font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
+}
+.language-select{
+    max-width: 710px;
+    margin:0 auto;
+   
+}
+.language-select ul{
+    display: flex;
+    padding: 0;
+    list-style: none;
+    margin: 23px auto;
+}
+.language-select li{
+    margin: 0px;
+    margin-right: 10px;
+}
+.line{
+    max-width: 828px;
+    height: 2px;
+    background-color:  #d3d3d3;
+    border: none;
+}
+.information{
+    font-family:'Lato', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    color: #2f1946;
+}
